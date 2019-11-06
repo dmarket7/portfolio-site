@@ -1446,7 +1446,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		width: 45em;
 		max-width: 100%;
-		margin: 0 auto 2em auto;
+		margin: 0 auto;
 	}
 
 		.gallery article {
@@ -1466,6 +1466,59 @@ input, select, textarea {
 			.gallery article .image {
 				margin: 0;
 				display: block;
+			}
+
+			.projects {
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: space-evenly;
+		}
+		
+			.project-box {
+				flex: 0 1 180px;
+				background-color: #fff;
+				color: #000;
+				opacity: 0.75;
+				margin: 10px;
+			}
+
+			.project-box > h3 {
+				font-size: 24px;
+			}
+
+			.project-box > img {
+				width: 300px;
+			}
+
+			.project-box-footer {
+				display: flex;
+				justify-content: space-evenly;
+			}
+
+			.project-visit {
+				margin: 0 auto;
+			}
+
+			.project-buttons {
+				display: flex;
+				justify-content: space-between;
+				z-index: 10;
+			}
+
+			.project-buttons button {
+				-moz-transition: -moz-transform 1s ease, opacity 1s ease;
+				-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
+				-ms-transition: -ms-transform 1s ease, opacity 1s ease;
+				transition: transform 1s ease, opacity 1s ease;
+				opacity: 0.4;
+			}
+
+			.project-buttons button a {
+				font-size: 20px;
+			}
+			
+			.project-buttons > button:hover {
+				opacity: 1;
 			}
 
 			.gallery article:nth-last-child(1n) {
@@ -1941,6 +1994,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		min-height: 100vh;
 		position: relative;
 		margin: 0;
 		overflow-x: hidden;

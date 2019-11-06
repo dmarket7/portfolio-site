@@ -1,3 +1,3 @@
 # Portfolio Site
 
-Dario Mercado's portfolio website uses an HTML5up template. All photos are self taken.
+Portfolio website uses a modified HTML5up template. All photos are self taken.
