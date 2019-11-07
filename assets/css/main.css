@@ -1949,6 +1949,11 @@ input, select, textarea {
 						outline: 0;
 					}
 
+					#header nav ul li a:hover {
+						color: #6B2737;
+						font-weight: bold;
+					}
+
 		@media screen and (max-width: 736px) {
 
 			#header {
@@ -2028,7 +2033,7 @@ input, select, textarea {
 		}
 
 			.main.style1 h2 {
-				font-size: 4.25em;
+				font-size: 3em;
 				line-height: 1em;
 			}
 
@@ -2123,6 +2128,7 @@ input, select, textarea {
 
 		.main.home {
 			color: #6B2737;
+			font-family: 'Roboto', sans-serif;
 		}
 
 			.main.home p {
