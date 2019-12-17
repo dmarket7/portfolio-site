@@ -922,11 +922,13 @@ input, select, textarea {
 		position: relative;
 		font-family: 'Font Awesome 5 Brands';
 		font-weight: bold;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-		align-content: flex-start;
+    display: block;
 		margin-bottom: 20px;
+	}
+
+	.bottom-links li {
+		display: inline-block;
+		margin: 10px;
 	}
 
 	.contact-links {
@@ -1469,13 +1471,14 @@ input, select, textarea {
 			}
 
 			.projects {
-				display: flex;
-				flex-flow: row wrap;
-				justify-content: space-evenly;
+				display: inline-block;
+				/* flex-flow: row wrap; */
+				/* justify-content: space-evenly; */
 		}
 		
 			.project-box {
-				flex: 0 1 180px;
+				/* flex: 0 1 180px; */
+				display: inline-block;
 				background-color: #fff;
 				color: #000;
 				opacity: 0.75;
@@ -2361,6 +2364,11 @@ input, select, textarea {
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
+	}
+
+	header h2 {
+		color: #6B2737;
+		font-family: 'Roboto', sans-serif;
 	}
 
 /* Contact */
