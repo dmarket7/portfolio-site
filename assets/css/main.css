@@ -1493,9 +1493,10 @@ input, select, textarea {
 				width: 300px;
 			}
 
-			.project-box-footer {
-				display: flex;
-				justify-content: space-evenly;
+			.project-box-footer > a {
+				display: inline-block;
+				margin: auto;
+				padding: 0 5px;
 			}
 
 			.project-visit {
