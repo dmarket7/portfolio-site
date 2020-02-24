@@ -1919,6 +1919,7 @@ input, select, textarea {
 			height: 3em;
 			line-height: 3em;
 			cursor: default;
+			z-index: 1;
 		}
 
 			#header h1 a {
